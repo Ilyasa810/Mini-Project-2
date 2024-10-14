@@ -1,6 +1,6 @@
 # Mini project 2 || Praktikum Daspro
 
-Tema: Sistem Penilaian dan ulasan film di sebuah katalog film
+### Tema: Sistem Penilaian dan ulasan film di sebuah katalog film
 
 ========================================
 
@@ -19,7 +19,6 @@ Tema: Sistem Penilaian dan ulasan film di sebuah katalog film
 ========================================
 
 [> Contoh dari Input hingga Output <]
-
 __________________________________________
 
 >> Contoh Input Output sebagai Admin
@@ -30,7 +29,8 @@ __________________________________________
 
 ------------------------------------------
 
-<img width="456" alt="{273F7F47-8395-4076-99A4-BD9163EC0707}" src="https://github.com/user-attachments/assets/11e70428-b5e4-407e-b589-3def772ca8be">
+<img width="456" alt="{D3A8D3A6-64B9-4AF7-B32F-4BFE1F7ED2A5}" src="https://github.com/user-attachments/assets/5d43a036-e1e0-4f14-bb65-e5be08cc73de">
+
 
 > Jika admin, memilih nomor 2
 
@@ -69,9 +69,15 @@ ___________________________________________
 
 [> Penjelasan Input Output
 
+>> [Penjelasan Input Output role]
+
+  <img width="400" alt="{A3CC0189-5003-4D7A-9177-5095E3D85CCA}" src="https://github.com/user-attachments/assets/1a47388b-95f1-48c3-8e98-3db6833c85c8">
+
+  Jika tidak memilih satupun dari role dipilihan, sistem akan langsung otomatis mengeluarkan dari program.
+
 ___________________________________________________
 
->> Penjelasan Input Output admin
+>> [Penjelasan Input Output admin]
 
 1.  Memilih role admin dan memasukkan password admin.
 
@@ -93,20 +99,95 @@ ___________________________________________________
 
  Selanjutnya, akan diminta apakah ingin melanjutkan lagi?
 
- _____________________________________________________________________________
+<><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><>
 
   <img width="456" alt="{ABF1DD25-8B9A-45C8-AE90-3C23DA0ABAED}" src="https://github.com/user-attachments/assets/2a90c6cb-81a5-46a8-b68d-2f62267c2721">
 
   Jika admin, memilih "iya" maka otomatis akan diminta memasukkan nomor urutan, dan judul film kembali.
 
-_____________________________________________________________________________
+<><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><>
 
   <img width="456" alt="{08364E8F-AB5A-4A9B-AAD8-589C85E59203}" src="https://github.com/user-attachments/assets/57f1bdae-6a4d-4e2a-b92e-b85345f42a68">
 
  Jika admin, memilih "tidak" maka akan otomatis diberi pilihan fitur admin.
 
- _____________________________________________________________________________
+ <><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><>
 
 3. Admin memilih no. 2 yaitu menghapus film yang sudah ada
 
-   
+   <img width="456" alt="{6A6B93B0-7BEA-4212-B64C-4A459DC19774}" src="https://github.com/user-attachments/assets/949c4d07-11b5-46c1-95cf-4ce5392c67ea">
+
+   Jika, admin memilih nomor 2, sistem akan meminta admin untuk menghapus salah satu film yang tersedia di table. Setelah berhasil, sistem akan memberikan pilihan apakah ingin melanjutkan atau tidak?
+
+  <img width="456" alt="{729B0340-AA51-4341-B974-8846EC235547}" src="https://github.com/user-attachments/assets/7dc71f39-e968-47dd-a20b-12a868a414b3">
+
+   Jika memilih "tidak", sistem akan langsung mengarahkan admin ke pemilihan fitur kembali
+
+   <img width="456" alt="{5921E865-25A3-4BBD-9FF2-BE07B8506483}" src="https://github.com/user-attachments/assets/ecbc6475-2b52-41e8-b897-0af80590ef8f">
+
+   Jika memilih "iya", sistem langsung meminta untuk menghapus film yang sudah tersedia kembali.
+
+<><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><>
+
+ 4. Admin memilih no.3 yaitu melihat film yang sudah ada
+
+   <img width="456" alt="{33864858-A05A-458D-83A8-A4A820B400C9}" src="https://github.com/user-attachments/assets/eb149eea-178d-4cef-a4ab-2394ae2b4d13">
+
+   Sistem hanya menampilkan table filmnya saja.
+
+<><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><>
+
+5. Admin memilih no. 4 yaitu kembali ke mode login
+
+   <img width="456" alt="{B10F21C6-0C59-45A0-8C77-50F8AD073F94}" src="https://github.com/user-attachments/assets/5c2f617b-f0d6-4922-946f-50cde5e5f964">
+
+   Sistem mengarahkan kembali ke mode login dan memilih role.
+
+<><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><>
+
+6. Admin memilih no. 5 yaitu keluar
+
+   <img width="456" alt="{33F46CA8-2F5C-40F2-A2CA-276CCD8F8548}" src="https://github.com/user-attachments/assets/319062ab-9d00-4aa6-b00a-26bc71ed33ed">
+
+   Sistem langsung mengeluarkan.
+
+<><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><>
+
+>> [Penjelasan Input Output Pengguna]
+
+1. Memilih role pengguna, dan memasukkan nama dan password
+
+   <img width="456" alt="{6FF3FE3B-3249-49B4-B054-4C1B58F04C64}" src="https://github.com/user-attachments/assets/f11eb25b-cf3b-4eb2-8594-29baf5d28243">
+
+   Pengguna memasukkan nama dan password.
+
+   > Jika pengguna salah dalam memasukkan password, sistem akan meminta ulang memasukkan password hingga pengguna memasukkan password yang benar
+
+   <img width="456" alt="{7A84504F-A985-4774-84E6-7744C533456C}" src="https://github.com/user-attachments/assets/6bdb8838-7099-48b5-8924-a0327dfded10">
+
+<><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><>
+
+2.  Pengguna memasukkan ulasan dan penilaian film
+
+   <img width="456" alt="{971EDE1E-DA80-4EFD-BCB3-BA9BA626D2E1}" src="https://github.com/user-attachments/assets/fa6ab880-90ac-4c7e-a2e2-00b597909eef">
+
+   Sistem meminta pengguna untuk memasukkan urutan film, ulasan, dan penilaian dari (1-10) dan sistem memberikan pilihan apakah ingin memberikan ulasan dan penilaian lagi.
+
+
+   > Jika pengguna memasukkan penilaian < 1 atau > 10, sistem akan meminta ulang untuk memasukkan penilaian yang benar.
+
+   <img width="450" alt="{D4949174-C3ED-462E-AA4F-03D66969C439}" src="https://github.com/user-attachments/assets/de984bdc-41b9-4106-bbce-c31661f5adf3">
+
+
+   <img width="450" alt="{07F78CFA-09E4-4A16-9508-D335E53F6B46}" src="https://github.com/user-attachments/assets/556d5bb5-f07d-4297-a03e-67d588464f97">
+
+   > Jika memilih "iya", sistem otomatis mengarahkan kembali ke bagian memasukkan urutan film, ulasan, dan penilaian.
+
+
+   <img width="450" alt="{4CD25507-4608-4689-8FFF-A706AF0AAE65}" src="https://github.com/user-attachments/assets/80b682dd-6592-4271-aee4-1d1356d95634">
+
+   > Jika memilih "tidak", sistem otomatis akan mengeluarkan pengguna dari program
+
+<><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><>
+
+## TERIMA KASIH 
